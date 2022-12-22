@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/layoutbackgroundcolor"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue_colorPrimary"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="?attr/layoutbackgroundcolor"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:background="?attr/layoutbackgroundcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_lime_50"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="@color/blue_colorAccent"
+                    app:srcCompat="@drawable/basetheme"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="122dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="White"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#393030"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="@color/blue_colorAccent"
+                    app:srcCompat="@drawable/basetheme"
+                    tools:ignore="VectorDrawableCompat"/>
+
+                <TextView
+                    android:layout_width="122dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Dark"
+                    android:textColor="#F8E6CFCF"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/darkp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Dark AMOLED"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

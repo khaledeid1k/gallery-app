@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backlayoutbackgroundcolor"
+        tools:context=".Ui.Settinform.Theme">
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:background="?attr/layoutbackgroundcolor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/themstext"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Theme"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/basetheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/basetheme"
+                        android:tint="?attr/imagegroundcolor" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Base Them"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="Select a base theme." />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/Primarycolorc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="50dp"
+                        android:tint="?attr/imagegroundcolor"
+                    android:src="@drawable/primarycolor" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Primarycolor"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Primary color"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="The main color to be used in th Ui." />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/AccentColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="50dp"
+                        android:tint="?attr/imagegroundcolor"
+                    android:src="@drawable/accentcolor" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Distinctivecolor"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Accent Color"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:paddingLeft="5dp"
+                            android:textSize="13dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="The second color is used to tint widgets and UI details " />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="50dp"
+                        android:tint="?attr/imagegroundcolor"
+                    android:src="@drawable/mediaviewer" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/MediaViewer"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Media Viewer"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="Customize theme transparency on media viewer." />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

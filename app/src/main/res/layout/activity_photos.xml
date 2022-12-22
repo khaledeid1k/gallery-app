@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutbackgroundcolor"
+    tools:context=".Ui.wheniopenfolder.PhotosActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/tooledite"/>
+<!--    <GridView-->
+<!--        android:layout_below="@id/tooledite"-->
+<!--        android:id="@+id/gv_folderphotes"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:numColumns="2"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--    </GridView>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gv_folderphotes"
+        android:background="?attr/layoutbackgroundcolor"
+        android:layout_below="@id/tooledite"/>
+</RelativeLayout>

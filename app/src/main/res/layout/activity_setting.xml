@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Ui.NavigationView.Setting">
+
+        <LinearLayout
+            android:background="?attr/layoutbackgroundcolor"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:id="@+id/toolbarsetteing"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="4dp" />
+
+            <FrameLayout
+                android:id="@+id/contanier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <!--            <fragment-->
+                <!--                android:id="@+id/fragment"-->
+                <!--                android:name="com.example.leafpicrevivedk.Ui.Settinform.Public"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                tools:layout="@layout/fragment_public" />-->
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--        <fragment-->
+            <!--            android:id="@+id/fragment4"-->
+            <!--            android:name="com.example.leafpicrevivedk.Ui.Settinform.MediaViewer"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            tools:layout="@layout/fragment_media_viewer" />-->
+
+            <!--        <fragment-->
+            <!--            android:id="@+id/fragment5"-->
+            <!--            android:name="com.example.leafpicrevivedk.Ui.Settinform.Advanced"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            tools:layout="@layout/fragment_videos" />-->
+
+            <!--        <fragment-->
+            <!--            android:id="@+id/fragment2"-->
+            <!--            android:name="com.example.leafpicrevivedk.Ui.Settinform.Theme"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            tools:layout="@layout/fragment_theme" />-->
+
+            <!--        <fragment-->
+            <!--            android:id="@+id/fragment3"-->
+            <!--            android:name="com.example.leafpicrevivedk.Ui.Settinform.Videos"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            tools:layout="@layout/fragment_videos" />-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

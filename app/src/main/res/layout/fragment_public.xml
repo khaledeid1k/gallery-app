@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backlayoutbackgroundcolor"
+        tools:context=".Ui.Settinform.Public">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/layoutbackgroundcolor"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/publicc"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Public"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/securitycardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/psecurity"
+                        android:tint="?attr/imagegroundcolor" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/security"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Security"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="Set a password to protect your media" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/multicolums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:tint="?attr/imagegroundcolor"
+
+                        android:layout_width="50dp"
+                        android:layout_height="41dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/pcolumn" />
+                    <LinearLayout
+                        android:layout_width="272dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Multiple columns"
+                            android:textColor="?attr/textgroundcolor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="49dp"
+                            android:textColor="?attr/tintgroundcolor"
+
+                            android:paddingLeft="5dp"
+                            android:text="Choose how many columns you
+
+                        want for your file and media" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:tint="?attr/imagegroundcolor"
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/pphoto" />
+
+                    <LinearLayout
+                        android:layout_width="329dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="?attr/textgroundcolor"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Mange Your Folders"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="Here can handel the excluded folders and include folders that don’t show up " />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:tint="?attr/imagegroundcolor"
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/ppriority" />
+
+                    <LinearLayout
+                        android:layout_width="245dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="?attr/textgroundcolor"
+                            android:layout_width="185dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="62dp"
+                            android:layout_marginEnd="22dp"
+                            android:layout_marginRight="22dp"
+                            android:paddingLeft="5dp"
+                            android:text="Show Tips"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dp"
+                            android:textColor="?attr/tintgroundcolor"
+                            android:text="Help you to understand the use of some features" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        android:theme="@style/AppTheme"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="126dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/padd"
+                    android:tint="?attr/imagegroundcolor" />
+
+                <LinearLayout
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="62dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginRight="22dp"
+                        android:paddingLeft="5dp"
+                        android:text="Language"
+                        android:textColor="?attr/textgroundcolor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Change Language"
+                        android:textColor="?attr/tintgroundcolor" />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/settings"
+            android:textColor="?attr/textgroundcolor"
+            android:title="Setting" />
+        <item
+            android:id="@+id/chat"
+            android:textColor="?attr/textgroundcolor"
+            android:icon="@drawable/chat"
+            android:title="Message" />
+        <item
+            android:id="@+id/navigation"
+            android:icon="@drawable/profile"
+            android:textColor="?attr/textgroundcolor"
+            android:title="profile" />
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:textColor="?attr/textgroundcolor"
+                android:icon="@drawable/share"
+                android:title="Shard" />
+            <item
+                android:id="@+id/about"
+                android:textColor="?attr/textgroundcolor"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+        </menu>
+
+    </item>
+
+
+</menu>

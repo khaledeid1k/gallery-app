@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LeafPic RevivedK</string>
+    <string name="a">Open navigation drawer</string>
+    <string name="b">Close navigation drawer</string>
+    <string name="selected_count">select</string>
+    <string name="send_to">send_to</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
